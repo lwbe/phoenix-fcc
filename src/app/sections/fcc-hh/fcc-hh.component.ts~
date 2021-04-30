@@ -12,9 +12,9 @@ import {
 } from 'phoenix-event-display';
 
 @Component({
-  selector: 'app-fcc-ee',
-  templateUrl: './fcc-ee.component.html',
-  styleUrls: ['./fcc-ee.component.scss']
+  selector: 'app-fcc-ff',
+  templateUrl: './fcc-hh.component.html',
+  styleUrls: ['./fcc-hh.component.scss']
 })
 export class FccEeComponent implements OnInit {
 
@@ -57,7 +57,7 @@ export class FccEeComponent implements OnInit {
 	//10,
 	//true
 	//);
-	this.eventDisplay.loadRootGeometry(JSROOT, 'assets/fccee-geo.root', 'world;1', "root geom" , 'ROOT GEOMETRY', 1, true, true);
+	this.eventDisplay.loadRootGeometry(JSROOT, 'assets/fcchh-geo.root', 'world;1', "root geom" , 'ROOT GEOMETRY', 1, true, true);
    });  
 
 
