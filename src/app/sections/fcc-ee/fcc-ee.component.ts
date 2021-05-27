@@ -6,8 +6,7 @@ import {
   PresetView,
   PhoenixMenuNode,
   PhoenixLoader,
-    ScriptLoader,
-
+  ScriptLoader,
   StateManager,
 } from 'phoenix-event-display';
 
@@ -49,16 +48,8 @@ export class FccEeComponent implements OnInit {
     //this.eventDisplay.loadRootGeometry(JSROOT, 'assets/test.root', 'default;1', "root geom" , 'ROOT GEOMETRY', 1, true, true);
 
     ScriptLoader.loadJSRootScripts().then((JSROOT)=> {
-	//this.eventDisplay.loadRootGeometry(
-	//JSROOT,
-	//'assets/fccee-geo.root',
-        //'CMS Detector',
-	//undefined,
-	//10,
-	//true
-	//);
 	this.eventDisplay.loadRootGeometry(JSROOT, 'assets/fccee-geo.root', 'world;1', "root geom" , 'ROOT GEOMETRY', 1, true, true);
-   });  
+   });
 
 
   }

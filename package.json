@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ngcc"
   },
   "private": true,
   "dependencies": {
@@ -21,8 +22,8 @@
     "@angular/router": "~11.2.10",
     "@tweenjs/tween.js": "^17.6.0",
     "css-element-queries": "^1.2.3",
-    "phoenix-event-display": "^1.7.0",
-    "phoenix-ui-components": "^1.7.0",
+    "phoenix-event-display": "^1.8.0",
+    "phoenix-ui-components": "^1.8.0",
     "rxjs": "~6.6.0",
     "three": "^0.127.0",
     "tslib": "^2.0.0",
